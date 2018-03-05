@@ -1,0 +1,19 @@
+{
+  "name": "giftlist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body": "^5.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-pino-logger": "^3.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "bin": {
+    "giftlist-downloader": "bin/giftlist-downloader.js"
+  }
+}
